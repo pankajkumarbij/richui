@@ -8,7 +8,7 @@ export default function ComponentsLayout({
   return (
     <div className="flex">
       <SideBar />
-      <main className="flex-1">{children}</main>
+      <main className="">{children}</main>
     </div>
   );
 }

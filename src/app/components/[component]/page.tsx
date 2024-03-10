@@ -12,7 +12,7 @@ export default async function ComponentByName({
   const componentData = await getComponentByName(params.component);
 
   return (
-    <div>
+    <div className="w-full border">
       {componentData ? (
         <div className="flex">
           <main className="flex-1 pt-16 overflow-y-auto h-screen border-x border-gray-600 bg-gray-50 text-gray-700 dark:bg-gray-800 dark:text-white">
