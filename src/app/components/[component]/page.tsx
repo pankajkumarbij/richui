@@ -1,4 +1,7 @@
 import SubSideBar from "@/components/componentsLayouts/subSidebar";
+import ShowCode from "@/components/renderComponents/showCode";
+import ComponentsCode from "@/mappings/componentsCode";
+import componentsUI from "@/mappings/componentsUI";
 import getComponentByName from "@/utils/components/getComponentByName";
 
 export default async function ComponentByName({
@@ -17,17 +20,30 @@ export default async function ComponentByName({
               <h1>{componentData.name}</h1>
               <p>{componentData.description}</p>
               {componentData.variations ? (
-                <aside className="w-64">
-                  {componentData.variations?.map((variation) => (
-                    <div
-                      className="pt-16"
-                      key={variation.id}
-                      id={variation.id}
-                    >
-                      <p>{variation.name}</p>
-                    </div>
-                  ))}
-                </aside>
+                <div>
+                  {componentData.variations?.map((variation) => {
+                    const Component = componentsUI[variation.id];
+                    const ComponentCode = ComponentsCode[variation.id];
+                    if (!Component) {
+                      return (
+                        <div key={variation.id} id={variation.id}>
+                          Component not found
+                        </div>
+                      );
+                    }
+                    return (
+                      <div
+                        className="pt-16"
+                        key={variation.id}
+                        id={variation.id}
+                      >
+                        <p>{variation.name}</p>
+                        <Component />
+                        <ShowCode code={ComponentCode} />
+                      </div>
+                    );
+                  })}
+                </div>
               ) : (
                 <div>No Component variations Found</div>
               )}

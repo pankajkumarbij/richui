@@ -1,10 +1,10 @@
-import { ComponentVariation } from "@/types/components/types";
+import { ComponentVariationType } from "@/types/components/types";
 import Link from "next/link";
 
 export default async function SubSideBar({
   variations,
 }: {
-  variations: ComponentVariation[];
+  variations: ComponentVariationType[];
 }) {
   return (
     <aside

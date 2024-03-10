@@ -1,11 +1,11 @@
-import { Component } from "@/types/components/types";
+import { ComponentType } from "@/types/components/types";
 import getComponents from "./getComponents";
 
 export default async function getComponentByName(
   name: string
-): Promise<Component | undefined> {
+): Promise<ComponentType | undefined> {
   try {
-    const components: Component[] | undefined = await getComponents();
+    const components: ComponentType[] | undefined = await getComponents();
 
     const componentData = components?.find((component) => component.id === name);
     return componentData;

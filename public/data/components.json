@@ -2,45 +2,21 @@
   {
     "id": "buttons",
     "name": "Buttons",
-    "href": "/components/buttons",
     "description": "Various button styles",
     "variations": [
       {
-        "id": "outlined",
+        "id": "outlinedButtons",
         "name": "Outlined Button",
         "description": "A button with an outline"
       },
       {
-        "id": "contained",
+        "id": "containedButtons",
         "name": "Contained Button",
         "description": "A button with a background color"
       },
       {
-        "id": "pills",
+        "id": "pillButtons",
         "name": "Pills Button",
-        "description": "A button with a background color"
-      },
-      {
-        "id": "social",
-        "name": "Social Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "cards",
-    "name": "Cards",
-    "href": "/components/cards",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
         "description": "A button with a background color"
       }
     ]
@@ -48,341 +24,21 @@
   {
     "id": "alerts",
     "name": "Alerts",
-    "href": "/components/alerts",
-    "description": "Various button styles",
+    "description": "Various alert styles",
     "variations": [
       {
-        "id": "outlined",
+        "id": "outlinedButtons",
         "name": "Outlined Button",
         "description": "A button with an outline"
       },
       {
-        "id": "contained",
+        "id": "containedButtons",
         "name": "Contained Button",
         "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "forms",
-    "name": "Forms",
-    "href": "/components/forms",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
       },
       {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "modals",
-    "name": "Modals",
-    "href": "/components/modals",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "dropdowns",
-    "name": "Dropdowns",
-    "href": "/components/dropdowns",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "tooltips",
-    "name": "Tooltips",
-    "href": "/components/tooltips",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "tabs",
-    "name": "Tabs",
-    "href": "/components/tabs",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "navbars",
-    "name": "Navigation Bars",
-    "href": "/components/navbars",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "breadcrumbs",
-    "name": "Breadcrumbs",
-    "href": "/components/breadcrumbs",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "paginations",
-    "name": "Paginations",
-    "href": "/components/paginations",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "badges",
-    "name": "Badges",
-    "href": "/components/badges",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "avatars",
-    "name": "Avatars",
-    "href": "/components/avatars",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "progresss",
-    "name": "Progress Bars",
-    "href": "/components/progresss",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "spinners",
-    "name": "Spinners",
-    "href": "/components/spinners",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "accordions",
-    "name": "Accordions",
-    "href": "/components/accordions",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "listgroups",
-    "name": "List Groups",
-    "href": "/components/listgroups",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "carousels",
-    "name": "Carousels",
-    "href": "/components/carousels",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "toasts",
-    "name": "Toasts",
-    "href": "/components/toasts",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "typographys",
-    "name": "Typography",
-    "href": "/components/typographys",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
-        "description": "A button with a background color"
-      }
-    ]
-  },
-  {
-    "id": "grids",
-    "name": "Grid System",
-    "href": "/components/grids",
-    "description": "Various button styles",
-    "variations": [
-      {
-        "id": "outlined",
-        "name": "Outlined Button",
-        "description": "A button with an outline"
-      },
-      {
-        "id": "contained",
-        "name": "Contained Button",
+        "id": "pillButtons",
+        "name": "Pills Button",
         "description": "A button with a background color"
       }
     ]

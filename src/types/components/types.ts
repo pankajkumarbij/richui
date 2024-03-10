@@ -1,13 +1,12 @@
-export interface ComponentVariation {
+export interface ComponentVariationType {
   id: string;
   name: string;
   description: string;
 }
 
-export interface Component {
+export interface ComponentType {
   id: string;
   name: string;
-  href: string;
   description: string;
-  variations: ComponentVariation[];
+  variations: ComponentVariationType[];
 }
